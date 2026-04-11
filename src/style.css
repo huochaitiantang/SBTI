@@ -409,44 +409,31 @@ body {
   text-align: center;
 }
 
-.agent-title {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--text);
-  margin-bottom: 12px;
-}
-
-.agent-cmd {
-  background: #1e1e1e;
-  border-radius: 8px;
-  padding: 12px 16px;
-  margin-bottom: 12px;
-  overflow-x: auto;
-}
-
-.agent-cmd code {
-  color: #a8d8a8;
-  font-size: 0.78rem;
-  font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
-  white-space: nowrap;
-}
-
-.btn-agent {
-  background: #1e1e1e;
-  color: #a8d8a8;
-  padding: 10px 24px;
+.agent-copy {
+  margin: 0;
   font-size: 0.85rem;
-}
-
-.btn-agent:hover {
-  background: #2a2a2a;
-}
-
-.agent-hint {
-  margin-top: 8px;
-  font-size: 0.75rem;
+  line-height: 1.55;
   color: var(--text-secondary);
-  opacity: 0.7;
+}
+
+.agent-copy a {
+  color: var(--accent);
+  word-break: break-all;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 16px 12px 24px;
+  font-size: 0.75rem;
+}
+
+.site-footer a {
+  color: var(--text-secondary);
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
 }
 
 /* ========== Mobile ========== */
